@@ -1,0 +1,63 @@
+[
+  {
+    "ContainingType": "HangfireDemo.Controllers.JobController",
+    "Method": "CreateBackgroudJob",
+    "RelativePath": "api/Job/CreateBackgroudJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireDemo.Controllers.JobController",
+    "Method": "CreateContinuationJob",
+    "RelativePath": "api/Job/CreateContinuationJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireDemo.Controllers.JobController",
+    "Method": "CreateScheduledJob",
+    "RelativePath": "api/Job/CreateScheduledJob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireDemo.Controllers.JobController",
+    "Method": "EmailScheduler",
+    "RelativePath": "api/Job/EmailExample",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HangfireDemo.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HangfireDemo.WeatherForecast, HangfireDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
